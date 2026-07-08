@@ -321,7 +321,7 @@ main() {
 
   arch="$(detect_arch)"
   resolved_version="$(resolve_version "${VERSION}")"
-  asset="vohive_${resolved_version}-gf9eb85d_linux_${arch}"
+  asset="vohive_${resolved_version}-10-gf9eb85d_linux_${arch}"
   base="https://github.com/${REPO}/releases/download/${resolved_version}"
   downloaded="${TMP_DIR}/${asset}"
   extracted="${downloaded}"
